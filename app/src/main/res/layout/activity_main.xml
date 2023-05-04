@@ -15,7 +15,7 @@
             android:id="@+id/amount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Amount" />
+            android:text="@string/amount" />
 
         <EditText
             android:id="@+id/amt"
@@ -28,7 +28,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Number Of Pax" />
+            android:text="@string/number_of_pax" />
 
         <EditText
             android:id="@+id/Pax"
@@ -48,8 +48,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="false"
-                android:textOn="SVS"
-                android:textOff="NO SVS"/>
+                android:textOn="@string/svs"
+                android:textOff="@string/no_svs"/>
 
             <ToggleButton
                 android:id="@+id/GST"
@@ -57,8 +57,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="false"
-                android:textOn="GST"
-                android:textOff="NO GST" />
+                android:textOn="@string/gst"
+                android:textOff="@string/no_gst" />
         </LinearLayout>
 
         <LinearLayout
@@ -70,7 +70,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Discount" />
+                android:text="@string/discount" />
 
             <EditText
                 android:id="@+id/Discount"
@@ -93,13 +93,13 @@
                         android:id="@+id/Cash"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cash" />
+                        android:text="@string/cash" />
 
                     <RadioButton
                         android:id="@+id/paynow"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Paynow" />
+                        android:text="@string/paynow" />
                 </LinearLayout>
 
             </RadioGroup>
@@ -115,14 +115,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Split" />
+                android:text="@string/split" />
 
             <Button
                 android:id="@+id/reset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Reset" />
+                android:text="@string/reset" />
         </LinearLayout>
 
         <LinearLayout
